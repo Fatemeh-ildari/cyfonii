@@ -1,0 +1,840 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #070a29;
+  color: white;
+}
+
+main {
+  background-image: url(../img/line.png);
+}
+
+#head {
+  width: 100%;
+  min-height: 100vh;
+}
+#head > header {
+  width: inherit;
+  height: 100px;
+  padding: 8px 25px;
+}
+#head > header > figure {
+  width: 30%;
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+}
+#head > header > figure > img {
+  width: 30%;
+}
+#head > header > nav {
+  width: 30%;
+}
+#head > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head > header > nav > ul > li:nth-of-type(1) {
+  color: #5c27fe;
+}
+#head > header > nav > ul > li a {
+  display: flex;
+  height: 100%;
+  padding: 20px 50px;
+  font-size: 25px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  transition: 1s;
+}
+#head > header > nav > ul > li a:hover {
+  color: #5c27fe;
+}
+#head > header div {
+  width: 30%;
+  color: white;
+  display: flex;
+  padding: 0px 50px;
+  align-items: center;
+  justify-content: right;
+  border: 1px solid rgba(0, 0, 0, 0.495);
+}
+#head > header div a {
+  font-size: 20px;
+  color: white;
+  background-color: #5c27fe;
+  padding: 5px 20px;
+  align-items: center;
+  border-radius: 10px;
+}
+#head > header i {
+  width: 10%;
+  padding: 25px 10px;
+  font-size: 30px;
+}
+#head #head-top {
+  height: calc(100vh - 100px);
+}
+#head #head-top .text {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#head #head-top .text div {
+  margin: 100px;
+}
+#head #head-top .text div h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+#head #head-top .text div p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 50px;
+}
+#head #head-top .text div a {
+  background-color: #5c27fe;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin: 10px 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#head #head-top .text div a:hover {
+  background-color: rgba(93, 39, 254, 0.2745098039);
+}
+#head #head-top .text div p:last-of-type {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+#head #head-top .text div i {
+  padding: 10px 10px;
+  margin: 20px 10px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+#head #head-top .text div i:hover {
+  color: #5c27fe;
+}
+#head #head-top .img {
+  width: 60px;
+  position: relative;
+  display: flex;
+  padding: 5px 200px;
+  margin: 50px 10px;
+}
+#head #head-top .img figure img {
+  border-radius: 50px;
+}
+#head #head-top .img .box {
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  width: 50%;
+  display: flex;
+  border-radius: 20px;
+  animation-name: anime1;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 500px;
+  }
+}
+#head #head-top .img .box figure img {
+  border-radius: 50%;
+  width: 30%;
+}
+#head #head-top .img .box p {
+  color: black;
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  padding: 0 20px;
+}
+#head #Hight {
+  height: auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#head #Hight .txt {
+  width: 50%;
+}
+#head #Hight .txt figure {
+  align-items: center;
+  justify-content: center;
+}
+#head #Hight .txt figure:nth-of-type(1) img {
+  border-radius: 100px;
+  width: 50%;
+  padding: 20px 20px;
+}
+#head #Hight .txt figure:nth-of-type(2) img {
+  width: 8%;
+  border-radius: 30%;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  animation-name: anime1;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 300px;
+  }
+}
+#head #Hight .txt figure:nth-of-type(3) img {
+  width: 7%;
+  border-radius: 10%;
+  position: absolute;
+  top: 90px;
+  left: 500px;
+  animation-name: anime2;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime2 {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-top: 50px;
+  }
+}
+#head #Hight .txt figure:nth-of-type(4) img {
+  width: 4%;
+  border-radius: 10%;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  animation-name: anime3;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime3 {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-left: 50px;
+  }
+}
+#head #Hight .txt figure:nth-of-type(5) img {
+  width: 10%;
+  border-radius: 10%;
+  position: absolute;
+  top: 400px;
+  left: 90px;
+  animation-name: anime1;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-left: 20px;
+  }
+}
+#head #Hight .mgg {
+  width: 40%;
+  flex-wrap: wrap;
+}
+#head #Hight .mgg a:first-of-type {
+  border: 1px solid rgba(93, 39, 254, 0.4431372549);
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #5c27fe;
+}
+#head #Hight .mgg h2 {
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+#head #Hight .mgg p:first-of-type {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+#head #Hight .mgg p:last-of-type {
+  font-size: 20px;
+  color: white;
+  margin: 20px;
+}
+#head #Hight .mgg a:last-of-type {
+  background-color: #5c27fe;
+  margin: 20px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+#head #project {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#head #project a {
+  border: 1px solid rgba(93, 39, 254, 0.4431372549);
+  border-radius: 10px;
+  padding: 10px 10px;
+  color: #5c27fe;
+  text-align: center;
+  justify-content: center;
+}
+#head #project h2 {
+  color: white;
+  font-size: 50px;
+  margin: 100px;
+  text-align: center;
+}
+#head #project p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+#head #project .box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 10px 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+#head #project .box div {
+  width: 100%;
+  height: 100%;
+  margin: 10px 100px;
+  background-color: rgba(29, 9, 89, 0.431372549);
+  justify-content: center;
+  align-items: center;
+}
+#head #project .box div i {
+  color: white;
+  background-color: #5c27fe;
+  border-radius: 50%;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 30px;
+}
+#head #project .box div h3 {
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#head #project .box div p:first-of-type {
+  font-size: 20px;
+  text-align: center;
+}
+#head #project .box div p:last-of-type {
+  font-size: 50px;
+  margin: 30px;
+  color: rgba(81, 81, 81, 0.335);
+}
+#head #project .box div p:last-of-type:hover {
+  color: white;
+}
+#head #Cyfonii {
+  width: 100%;
+  height: auto;
+  margin: 30px 70px;
+}
+#head #Cyfonii .box2 {
+  width: 50%;
+  color: white;
+}
+#head #Cyfonii .box2 div {
+  width: 100%;
+  padding: 20px 10px;
+  margin: 10px 10px;
+  background-color: rgba(24, 6, 78, 0.2588235294);
+  border-radius: 20px;
+}
+#head #Cyfonii .box2 div i {
+  margin: 40px;
+  font-size: 30px;
+  color: #5c27fe;
+}
+#head #Cyfonii .box2 div h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: 3px 10px;
+}
+#head #Cyfonii .box2 div p {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 10px;
+}
+#head #Cyfonii .im {
+  margin: 10px 50px;
+}
+#head #Cyfonii .im figure img {
+  animation-name: anime1;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes anime1 {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-left: 20px;
+  }
+}
+#head #OUR {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head #OUR h2 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 20px;
+  padding: 5px 10px;
+}
+#head #OUR .slider {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  border: 2px solid #5c27fe;
+  position: relative;
+  overflow: hidden;
+}
+#head #OUR .slider figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#head #OUR .slider figure:nth-of-type(1) {
+  animation-name: img1;
+}
+#head #OUR .slider figure:nth-of-type(2) {
+  animation-name: img2;
+}
+#head #OUR .slider figure:nth-of-type(3) {
+  animation-name: img3;
+}
+@keyframes img1 {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  36% {
+    left: 100%;
+  }
+  36.000001% {
+    left: -100%;
+  }
+  94% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes img2 {
+  0% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  36% {
+    left: 0;
+  }
+  63% {
+    left: 0;
+  }
+  69% {
+    left: 100%;
+  }
+  69.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+@keyframes img3 {
+  0% {
+    left: -100%;
+  }
+  63% {
+    left: -100%;
+  }
+  69% {
+    left: 0;
+  }
+  94% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+#head #OUR .slider figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#head #OUR .slider figure figcaption {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(25, 3, 90, 0.5019607843);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: txt linear 4s infinite;
+}
+@keyframes txt {
+  0% {
+    scale: 0;
+  }
+  20% {
+    scale: 0;
+  }
+  30% {
+    scale: 1;
+  }
+  70% {
+    scale: 1;
+  }
+  80% {
+    scale: 0;
+  }
+  100% {
+    scale: 0;
+  }
+}
+#head #What {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#head #What a {
+  background-color: rgba(22, 4, 74, 0.5137254902);
+  border: 1px solid #5c27fe;
+  color: #5c27fe;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 10px 850px;
+}
+#head #What a:hover {
+  color: white;
+}
+#head #What h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 50px;
+}
+#head #What img:nth-of-type(1) {
+  margin: 5px 890px;
+}
+#head #What p:nth-of-type(1) {
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+#head #What img:nth-of-type(2) {
+  width: 10%;
+  margin: 5px 850px;
+  border-radius: 100%;
+}
+#head #What p:nth-of-type(2) {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+#head #What p:nth-of-type(3) {
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+}
+#head #Aksed {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#head #Aksed .box {
+  width: 50%;
+  height: 200px;
+  margin: 50px;
+  background-color: #5c27fe;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 20px;
+}
+#head #Aksed .box div:nth-of-type(1) {
+  width: 50%;
+}
+#head #Aksed .box div:nth-of-type(1) h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#head #Aksed .box div:nth-of-type(1) p {
+  font-size: 15px;
+  text-align: center;
+  margin: 6px;
+}
+#head #Aksed .box div:nth-of-type(2) figure {
+  animation-name: img1;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes img1 {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 20px;
+  }
+}
+#head #nft {
+  width: 100%;
+  height: auto;
+}
+#head #nft h4 {
+  background-color: rgba(18, 4, 60, 0.3647058824);
+  color: #5c27fe;
+  border-radius: 10px;
+  border: 1px solid #5c27fe;
+  text-align: center;
+  width: 10%;
+  margin: 100px 850px;
+}
+#head #nft h2 {
+  font-size: 60px;
+  text-align: center;
+}
+#head #nft p {
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+#head #nft div {
+  justify-content: center;
+  align-items: center;
+}
+#head #nft div a {
+  width: 100%;
+  font-size: 20px;
+  background-color: rgba(28, 12, 76, 0.4862745098);
+  border: 1px solid #5c27fe;
+  padding: 10px 30px;
+  margin: 40px 850px;
+  justify-content: center;
+  align-items: center;
+}
+#head #Members {
+  width: 100%;
+  height: auto;
+}
+#head #Members .box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(24, 8, 72, 0.5058823529);
+  padding: 10px 10px;
+  margin: 20px 20px;
+  justify-content: center;
+  align-items: center;
+}
+#head #Members .box figure {
+  margin: 10px 20px;
+}
+#head #Members .box figure img {
+  width: 50%;
+  margin: 5px 150px;
+  border-radius: 20px;
+}
+#head #Members .box h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#head #Members .box p {
+  font-size: 15px;
+  text-align: center;
+  margin: 12px;
+}
+#head .top {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#head .top img {
+  padding: 50px 50px;
+  margin: 4px 40px;
+}
+#head .Get {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+#head .Get h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+#head .Get p {
+  font-size: 20px;
+  text-align: center;
+}
+#head .Get div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#head .Get div input {
+  font-size: 20px;
+  margin: 30px;
+  width: 20%;
+  height: 80px;
+  border-radius: 10px;
+}
+#head .Get div a {
+  margin: 10px;
+  background-color: rgba(18, 4, 60, 0.3647058824);
+  border: 1px solid #5c27fe;
+  color: #5c27fe;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#foot {
+  width: 100%;
+  min-height: auto;
+  margin: 100px;
+}
+#foot footer {
+  width: inherit;
+  height: 100px;
+  padding: 8px 25px;
+}
+#foot footer figure {
+  width: 40%;
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid rgba(41, 5, 151, 0.4784313725);
+}
+#foot footer figure > img {
+  width: 50%;
+}
+#foot footer nav {
+  width: 30%;
+}
+#foot footer nav > ul {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-right: 1px solid rgba(41, 5, 151, 0.4784313725);
+}
+#foot footer nav > ul > li:nth-of-type(1) {
+  color: #5c27fe;
+}
+#foot footer nav > ul > li a {
+  display: flex;
+  height: 100%;
+  padding: 20px 80px;
+  font-size: 15px;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  transition: 1s;
+}
+#foot footer nav > ul > li a:hover {
+  color: #5c27fe;
+}
+#foot footer div {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin: 5px 50px;
+  padding: 5px 10px;
+}
+#foot footer div i {
+  padding: 10px 20px;
+  margin: 0 10px;
+}/*# sourceMappingURL=master.css.map */
